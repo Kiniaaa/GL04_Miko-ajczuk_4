@@ -1,0 +1,77 @@
+body {
+	background-color: #c0c0c0;
+	padding: 0 64px;
+}
+
+canvas {
+	background-color: #EEE;
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	background-color: #e3e7e6;
+	padding: 16px;
+}
+
+h2{
+	text-align: center;
+}
+
+#inputPanel{
+	background-color: #e3e7e6;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+#inputField{
+	display: block;
+	width: 100%;
+}
+
+.submitBtn{
+	padding: 12px;
+	margin: 8px 0px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: lightgrey;
+	border: none;
+
+}
+
+#result {
+	word-wrap: break-word;
+	background-color: #e3e7e6;
+	padding: 16px;
+}
+
+table {
+	border: 1px solid black;
+	margin: auto;
+}
+
+td, th {
+	padding: 4px;
+	text-align: center;
+	border-top: 1px solid gray;
+}
+th {
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: #c0c0c0;
+}
+
+.aliasedChar {
+	font-style: italic;
+	color: #00A;
+}
+
+.stats{
+	text-align: center;
+	margin: 32px 0;
+}
+.entropy, .avg{
+	background-color: #c0c0c0;
+	display: inline-block;
+	padding: 32px;
+	margin: 16px;
+}
